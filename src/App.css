@@ -26,7 +26,7 @@ input {
   border-radius: 10px;
   border: none;
 }
-button {
+.Button button {
   padding: 12px 35px;
   font-size: 25px;
   cursor: pointer;
@@ -47,14 +47,14 @@ table {
   color: #fff;
   font-size: 20px;
 }
-img {
+.userimg {
   width: 100px;
   border-radius: 50%;
 }
 th,
 td {
   padding: 10px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #444;
 }
 
@@ -64,4 +64,43 @@ th {
 
 tr {
   background-color: #333;
+}
+.More{
+  padding: 12px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: #24292f;
+  color: white;
+}
+.Modal{
+  width: 820px;
+  height: 500px;
+  position: absolute;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #5d646d;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.Modal span{
+  color: white;
+  float: right;
+  cursor: pointer;
+  padding: 0px 5px;
+  font-size: 25px;
+}
+.Modal img{
+  width: 200px;
+}
+.Modal a{
+  text-decoration: none;
+  color: white;
+}
+.flwimg{
+  width: 10%;
 }
